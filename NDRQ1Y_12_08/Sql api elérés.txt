@@ -1,0 +1,17 @@
+#include <iostream>
+#include "sqlite3.h"
+
+typedef struct sqlite3 sqlite3;
+sqlite3 *db;
+
+using namespace std;
+int main()
+{
+    int opening = sqlite3_open("adatbazis.db", &db);
+        if (opening == 0) {
+        cout << "Sikere!" << endl;
+        } else {
+                cout << "Sajnos nem sikerült!" << endl;
+        }
+        return 0;
+}
