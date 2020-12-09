@@ -1,0 +1,11 @@
+1.
+CLI:
+Parancs függvény hívással, SQL és egyéb parancsok ismerete, elterjedetebb mint az E-SQL, és több adatbázissal áll kapcsolatban
+
+E-SQL:
+Parancs prefix alapján működik, SQL parancsokkal működik, kevésbé használt, komunnikálni képes az adatbázissal
+
+2.
+1, sqlite3.h header beilesztés
+
+2, A sq.lite3.c beillesztése a projektbe
